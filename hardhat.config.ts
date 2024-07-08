@@ -9,7 +9,7 @@ import "dotenv/config";
 
 const config: HardhatUserConfig = {
   solidity: {
-    version: '0.8.4',
+    version: '0.8.24',
     settings: {
       optimizer: {
         enabled: false,
@@ -58,7 +58,7 @@ const config: HardhatUserConfig = {
   },
   typechain: {
     outDir: "src/types",
-    target: "ethers-v5",
+    target: "ethers-v6",
   },
   contractSizer: {
     alphaSort: false,
